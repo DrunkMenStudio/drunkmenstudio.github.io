@@ -1,1 +1,89 @@
-Hello, welcome to DrunkMenStudio!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drunk Men Studio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            text-align: center;
+            padding: 80px 20px;
+            max-width: 800px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1 {
+            font-size: 4em;
+            background: linear-gradient(to right, #ff00cc, #333399, #00d2ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 30px;
+            font-weight: 900;
+            line-height: 1.2;
+        }
+        .studio-info {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        .studio-info p {
+            font-size: 1.2em;
+            color: #cbd5e1;
+            line-height: 1.8;
+            margin: 0;
+        }
+        .highlight {
+            color: #00d2ff;
+            font-weight: bold;
+        }
+        .footer {
+            width: 100%;
+            background: rgba(15, 23, 42, 0.8);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 25px 0;
+            text-align: center;
+            margin-top: auto;
+        }
+        .footer a {
+            color: #00d2ff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 600;
+            transition: color 0.3s ease;
+            font-size: 1.1em;
+        }
+        .footer a:hover {
+            color: #ff00cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Drunk Men Studio</h1>
+        
+        <div class="studio-info">
+            <p>Founded by an independent solo developer, Drunk Men Studio is dedicated to creating bold, fun, and engaging mobile experiences for Android. Built entirely in <span class="highlight">Unity</span> using <span class="highlight">C#</span>, our focus is on delivering highly entertaining gameplay, creative mechanics, and memorable moments for players everywhere.</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <a href="tos.html">Terms of Service</a>
+        <a href="app-ads.txt">app-ads.txt</a>
+    </div>
+</body>
+</html>
